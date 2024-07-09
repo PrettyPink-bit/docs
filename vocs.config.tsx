@@ -21,6 +21,10 @@ export const platformSidebar = [
         text: "How to use sponsorship policies",
         link: "/infra/platform/sponsorship-policies",
       },
+      {
+        text: "How to use a webhook",
+        link: "/infra/platform/sponsorship-policies/webhook",
+      },
     ],
   },
 ];
@@ -407,16 +411,16 @@ export const permissionlessSidebar = [
             link: "/permissionless/how-to/signers/privy",
           },
           {
+            text: "How to use a Magic signer",
+            link: "/permissionless/how-to/signers/magic",
+          },
+          {
             text: "How to use a Passport signer",
             link: "/permissionless/how-to/signers/passport",
           },
           {
             text: "How to use a Lit Protocol signer",
             link: "/permissionless/how-to/signers/lit-protocol",
-          },
-          {
-            text: "How to use a Magic signer",
-            link: "/permissionless/how-to/signers/magic",
           },
           {
             text: "How to use a Web3Auth signer",
